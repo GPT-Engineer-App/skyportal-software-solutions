@@ -9,6 +9,9 @@ const Navigation = () => {
       </Link>
       <Link to="/about">
         <Button colorScheme="blue">About Us</Button>
+        <Link to="/mission">
+          <Button colorScheme="blue">Our Mission</Button>
+        </Link>
       </Link>
     </Flex>
   );
