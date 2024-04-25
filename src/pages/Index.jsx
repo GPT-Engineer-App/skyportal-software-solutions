@@ -15,7 +15,9 @@ const Index = () => {
       </Flex>
 
       <VStack spacing={8}>
-        <Section icon={<FaInfoCircle />} title="About Us" text="Cloudscape is a dynamic software startup dedicated to crafting bespoke digital solutions. From website development to complex cloud-based services, our team of experts is committed to propelling your business into the digital age." />
+        <Button as={Link} to="/about" colorScheme="blue">
+          About Us
+        </Button>
 
         <Section icon={<FaRocket />} title="Our Mission" text="Our mission is to empower businesses by providing cutting-edge software solutions that enhance operational efficiency and drive growth. We strive to be leaders in innovation and customer satisfaction." />
 
